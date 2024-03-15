@@ -1,8 +1,14 @@
+import { BrowserRouter, Routes } from 'react-router-dom'
+import renderRoutes from '@/routes'
+import { routes } from '@/routes/routes'
+
 function App () {
   return (
-    <h1 className='text-3xl font-bold underline'>
-      Hello world!
-    </h1>
+    <BrowserRouter>
+      <Routes>
+        {renderRoutes(routes)}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
