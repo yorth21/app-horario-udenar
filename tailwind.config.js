@@ -13,7 +13,8 @@ export default {
         udenar: {
           primary: '#00923f',
           secondary: '#F2FFE9'
-        }
+        },
+        secondary: '#16181c'
       }
     }
   },
